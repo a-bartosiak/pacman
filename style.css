@@ -1,0 +1,65 @@
+.pac-man-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    border: 1px solid black;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: #07beb8;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.wall {
+    background-color: #134074;
+}
+
+.power-pellet {
+    background-color: #07beb8;
+    border-radius: 50%;
+}
+
+.blinky {
+    background-image: url("images/ghost4.png");
+    border: 0;
+}
+
+.pinky {
+    background-image: url("images/ghost.jpg");
+    border: 0;
+}
+
+.inky {
+    background-image: url("images/ghost2.jpg");
+    border: 0;
+}
+
+.clyde {
+    background-image: url("images/ghost3.png");
+    border: 0;
+}
+
+.scared-ghost {
+    background-image: url("images/ghost-scared.jpeg");
+    border: 0;
+}
+
+.pac-man {
+    width: 10px;
+    height: 10px;
+    background-image: url("images/pac-man.jpg");
+}
